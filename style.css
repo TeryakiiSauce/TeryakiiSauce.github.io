@@ -1,5 +1,64 @@
 body {
 	text-align: center;
 	background-color: antiquewhite;
-	/* margin-top: 15em; */
+}
+
+.sec1 {
+	/* background-color: #f8f1ff; */
+	background: url('./resources/brooke-lark-wMzx2nBdeng-unsplash.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.sec2 {
+	/* background-color: #1b998b; */
+	background: url('./resources/mike-dorner-sf_1ZDA1YFw-unsplash.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.sec3 {
+	/* background-color: #decdf5; */
+	background: url('./resources/lum3n-RYqO8DhPg68-unsplash.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.sec4 {
+	/* background-color: #534d56; */
+	background: url('./resources/estudio-bloom-ezqnxsqUZ80-unsplash.jpg')
+		no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.sec1 ul {
+	padding: 0;
+	position: relative;
+	top: 15%;
+	width: auto;
+	list-style-type: none;
+}
+
+.list-title {
+	font-weight: bold;
+}
+
+.sec1 li {
+	width: 65%;
+	margin: auto;
+}
+
+#surprise-link {
+	margin: 2rem;
+}
+
+#surprise-link a {
+	border: solid 4px palevioletred;
+	color: rgb(199, 81, 120);
+	padding: 0.5rem;
+}
+
+#surprise-link a:visited {
+	color: rgb(199, 81, 120);
 }
