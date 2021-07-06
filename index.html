@@ -1,22 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TeryakiiSauce</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css"
+			integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TeryakiiSauce</title>
-    <style>
-        body {
-            text-align: center;
-            background-color: antiquewhite;
-            margin-top: 15em;
-        }
-    </style>
-</head>
+	<body>
+		<div id="fullpage">
+			<div class="section sec1">
+				<h1>hello world</h1>
+				<p><a href="./page1.html">click here</a></p>
+			</div>
 
-<body>
-    <h1>hello world</h1>
-    <p><a href="./page1.html">click here</a></p>
-</body>
+			<div class="section sec2">
+				<h2>hey there...</h2>
+				<p>this is awkward, please continue.</p>
+			</div>
 
+			<div class="section sec2">
+				<h2>*wink*</h2>
+				<p>stop right there *-^</p>
+			</div>
+
+			<!-- <div class="section sec3"></div> -->
+		</div>
+
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"
+			integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+
+		<script>
+			new fullpage('#fullpage', {
+				//options here [for all other options, link: https://github.com/alvarotrigo/fullPage.js/#fullpagejs]
+				autoScrolling: true,
+				navigation: true,
+				navigationPosition: 'left',
+			});
+
+			//methods
+			// fullpage_api.setAllowScrolling(false);
+		</script>
+	</body>
 </html>
